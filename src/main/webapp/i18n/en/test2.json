@@ -1,0 +1,22 @@
+{
+    "testJhipster3App": {
+        "test2": {
+            "home": {
+                "title": "Test 2 S",
+                "createLabel": "Create a new Test 2",
+                "createOrEditLabel": "Create or edit a Test 2"
+            },
+            "created": "A new Test 2 is created with identifier {{ param }}",
+            "updated": "A Test 2 is updated with identifier {{ param }}",
+            "deleted": "A Test 2 is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Test 2 {{ id }}?"
+            },
+            "detail": {
+                "title": "Test 2"
+            },
+            "names": "Names",
+            "sexs": "Sexs"
+        }
+    }
+}

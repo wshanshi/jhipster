@@ -1,0 +1,22 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "names",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sexs",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20190313074416",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "no",
+    "entityTableName": "test2",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

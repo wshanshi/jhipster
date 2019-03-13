@@ -1,0 +1,35 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="test1">
+            <h2><span jhiTranslate="testJhipster3App.test1.detail.title">Test 1</span> {{test1.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="testJhipster3App.test1.name">Name</span></dt>
+                <dd>
+                    <span>{{test1.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="testJhipster3App.test1.sex">Sex</span></dt>
+                <dd>
+                    <span>{{test1.sex}}</span>
+                </dd>
+                <dt><span jhiTranslate="testJhipster3App.test1.age">Age</span></dt>
+                <dd>
+                    <span>{{test1.age}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/test-1', test1.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>
